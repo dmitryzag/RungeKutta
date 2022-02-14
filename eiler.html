@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Метод Эйлера</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.js'></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Лабораторная работа 6</h1>
+    </header>
+    <main>
+        <div>
+            <div class="card">
+                <h1>Метод Эйлера</h1>
+                <h3>Начальные условия:</h3>
+                <img src="oops.bmp" alt="" width="300px">
+                <br>
+                <label for="right">Шаг сетки: </label><input type="number" name="right" id="funEiler" min=1>
+                <br>
+                <label for="node">Количество узлов сетки: </label><input type="number" name="node" id="nodeEiler"
+                    min="2">
+                <br>
+                <button id="actionEiler" class="shine-button">ВВОД</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <form action="/index.html" target="_blank">
+                <button class="button-66" href="/index.html" rel="stylesheet">Метод Рунге-Кутты</button>
+            </form>
+        </div>
+
+        <div class="card low">
+            <h3 class="center" style="text-align: center;">y(x)</h3>
+            <div class="chart1 ct-perfect-fourth" style="width: 900px;">
+
+            </div>
+            <h3 class="center" style="text-align: center;">z(x)</h3>
+            <div class="chart2 ct-perfect-fourth" style="width: 900px;">
+
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+    <script src="eilerScipr.js"></script>
+</body>
+
+</html>
